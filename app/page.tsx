@@ -15,7 +15,7 @@ export default function Home() {
           <Header />
           <div className='grid grid-cols-12'>
               <div className='col-span-6 justify-center flex flex-col pl-28 gap-2'>  
-                <div className='intro text-5xl'>
+                <div className='intro text-6xl'>
                   <SplitText
                     text="Hello, I'm Afif"
                     className="font-bold text-center"
@@ -28,22 +28,22 @@ export default function Home() {
                     onLetterAnimationComplete={handleAnimationComplete}
                   />
                 </div>
-                <div className='lencana text-xl'>IT Education Student | Software Developer</div>
-                <div className='quote text-lg'>“No guilt can change the past, and no worry can alter the future.” - Umar bin Khatab (r.a)</div>
+                <div className='lencana text-2xl'>IT Education Student | Software Developer</div>
+                <div className='quote text-xl'>“No guilt can change the past, and no worry can alter the future.” - Umar bin Khatab (r.a)</div>
                 <div className='social-media flex items-center gap-4'>
                   <a className='flex justify-center items-center w-13 h-13 border-[0.2rem] border-[#00fa9a] 
                                 rounded-full text-[2rem] text-[#00fa9a] 
                                 my-5 transition duration-300 ease-in-out
-                              hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]' href=""><i className='bx bxl-instagram'></i></a>
+                              hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]' href="https://www.instagram.com/_aldzakwan/"><i className='bx bxl-instagram'></i></a>
                   <a className='flex justify-center items-center w-13 h-13 border-[0.2rem] border-[#00fa9a] 
                                 rounded-full text-[2rem] text-[#00fa9a] 
                                 my-5 transition duration-300 ease-in-out
-                              hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]' href=""><i className='bx bxl-github'></i></a>
+                              hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]' href="https://github.com/Aldzakwan00"><i className='bx bxl-github'></i></a>
                   <a className='flex justify-center items-center w-13 h-13 border-[0.2rem] border-[#00fa9a] 
                                 rounded-full text-[2rem] text-[#00fa9a] 
                                 my-5 transition duration-300 ease-in-out
-                              hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]' href=""><i className='bx bxl-linkedin'></i></a>
-                  <button className='flex justify-center items-center w-30 h-13 border-[0.2rem] border-[#00fa9a] 
+                              hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]' href="www.linkedin.com/in/afif-al-dzakwan-0899942b3"><i className='bx bxl-linkedin'></i></a>
+                  <button onClick={() => window.location.href= 'https://drive.google.com/file/d/1zAKL-gwB8TLVFsUQctmbEgN7w9n_anXs/view?usp=sharing'} className='flex justify-center items-center w-30 h-13 border-[0.2rem] border-[#00fa9a] 
                                 rounded  text-[#00fa9a] 
                                 my-5 transition duration-300 ease-in-out
                               hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]'>Hire Me <i className='bx bxs-chevrons-right text-2xl' ></i></button>
