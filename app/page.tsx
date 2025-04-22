@@ -66,7 +66,7 @@ export default function Home() {
                           rounded-full text-[2rem] text-[#00fa9a] 
                           my-5 transition duration-300 ease-in-out
                           hover:bg-[#00fa9a] hover:text-black hover:shadow-[0_0_1rem_#00fa9a]' 
-              href="www.linkedin.com/in/afif-al-dzakwan-0899942b3">
+              href="https://linkedin.com/in/afif-al-dzakwan-0899942b3">
               <i className='bx bxl-linkedin'></i>
             </a>
             <button onClick={() => window.location.href= 'https://drive.google.com/file/d/1zAKL-gwB8TLVFsUQctmbEgN7w9n_anXs/view?usp=sharing'} 

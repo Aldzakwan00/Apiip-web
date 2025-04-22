@@ -20,7 +20,7 @@ const Header = () => {
                 <ul className="hidden md:flex space-x-4 mr-10">
                     <li><Link href="/" className="text-white hover:text-gray-400">Home</Link></li>
                     <li><Link href="/about" className="text-white hover:text-gray-400">About</Link></li>
-                    <li><Link href="#" className="text-white hover:text-gray-400">Service</Link></li>
+                    <li><Link href="/myservice" className="text-white hover:text-gray-400">Service</Link></li>
                     <li><Link href="#" className="text-white hover:text-gray-400">Portofolio</Link></li>
                     <li><Link href="#" className="text-white hover:text-gray-400">Education</Link></li>
                     <li><Link href="#" className="text-white hover:text-gray-400">Contact</Link></li>
