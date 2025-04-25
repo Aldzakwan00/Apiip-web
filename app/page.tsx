@@ -10,7 +10,7 @@ const handleAnimationComplete = () => {
 
 export default function Home() {
   return (
-    <main className='h-screen relative text-white'>
+    <main className='h-screen  mt-24'>
       <Header />
       <div className='grid grid-cols-1 sm:grid-cols-12 h-full'>
         
