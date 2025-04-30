@@ -22,8 +22,8 @@ const Header = () => {
                     <li><Link href="/about" className="text-white hover:text-gray-400">About</Link></li>
                     <li><Link href="/myservice" className="text-white hover:text-gray-400">Service</Link></li>
                     <li><Link href="/portofolio" className="text-white hover:text-gray-400">Portofolio</Link></li>
-                    <li><Link href="#" className="text-white hover:text-gray-400">Education</Link></li>
-                    <li><Link href="#" className="text-white hover:text-gray-400">Contact</Link></li>
+                    <li><Link href="/education" className="text-white hover:text-gray-400">Education</Link></li>
+                    <li><Link href="/contact" className="text-white hover:text-gray-400">Contact</Link></li>
                 </ul>
 
                 <div className="md:hidden mr-6">
