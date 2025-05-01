@@ -8,20 +8,20 @@ const Contact = () => {
 
             {/* Heading */}
             <div className="text-center mb-10 animate-fade-in">
-                <h1 className="text-5xl font-extrabold mb-4">📞 Get in Touch</h1>
-                <p className="text-lg text-gray-300 max-w-xl mx-auto">
-                    Have questions or want to collaborate? Drop a message!
+                <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-[#00fa9a]">📞 Get in Touch</h1>
+                <p className="text-md md:text-lg text-gray-300 max-w-xl mx-auto">
+                    Have questions or want to collaborate? Drop a message below!
                 </p>
             </div>
 
             {/* Contact Form */}
-            <form className="w-full max-w-xl bg-gray-800 rounded-2xl p-8 shadow-lg animate-slide-up">
+            <form className="w-full max-w-xl bg-gray-900 rounded-2xl p-8 shadow-2xl animate-slide-up">
                 <div className="mb-4">
                     <label className="block mb-2 text-gray-300">Name</label>
                     <input
                         type="text"
                         placeholder="Your name"
-                        className="w-full p-3 rounded-lg bg-gray-700 text-white outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full p-3 rounded-lg bg-gray-700 text-white outline-none focus:ring-2 focus:ring-[#00fa9a]"
                     />
                 </div>
 
@@ -30,7 +30,7 @@ const Contact = () => {
                     <input
                         type="email"
                         placeholder="you@example.com"
-                        className="w-full p-3 rounded-lg bg-gray-700 text-white outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full p-3 rounded-lg bg-gray-700 text-white outline-none focus:ring-2 focus:ring-[#00fa9a]"
                     />
                 </div>
 
@@ -39,17 +39,36 @@ const Contact = () => {
                     <textarea
                         rows={4}
                         placeholder="Write your message here..."
-                        className="w-full p-3 rounded-lg bg-gray-700 text-white outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full p-3 rounded-lg bg-gray-700 text-white outline-none focus:ring-2 focus:ring-[#00fa9a]"
                     />
                 </div>
 
                 <button
                     type="submit"
-                    className="bg-blue-600 hover:bg-blue-700 transition duration-300 px-6 py-3 rounded-xl font-semibold"
+                    className="w-full bg-[#00fa9a] text-black hover:bg-[#00dfa0] transition duration-300 px-6 py-3 rounded-xl font-semibold"
                 >
                     Send Message
                 </button>
             </form>
+
+            {/* Social Buttons */}
+            <div className="mt-12 flex gap-4 flex-wrap justify-center animate-fade-in">
+                {[
+                    { name: "Facebook", url: "#", label: "F" },
+                    { name: "Twitter", url: "#", label: "T" },
+                    { name: "Instagram", url: "#", label: "I" },
+                    { name: "LinkedIn", url: "#", label: "L" },
+                ].map((btn, idx) => (
+                    <a
+                        key={idx}
+                        href={btn.url}
+                        className="w-12 h-12 rounded-full flex items-center justify-center border-2 border-[#00fa9a] text-[#00fa9a] hover:bg-[#00fa9a] hover:text-black transition duration-300 text-xl font-bold"
+                        aria-label={btn.name}
+                    >
+                        {btn.label}
+                    </a>
+                ))}
+            </div>
 
             {/* CSS Animations */}
             <style jsx>{`
